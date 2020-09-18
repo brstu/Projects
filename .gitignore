@@ -1,0 +1,20 @@
+# Игнорировать все остальные файлы
+*
+
+
+# Не bгнорировать все файлы кроме .cpp .h .js .cs
+!.gitignore
+
+!/CLion/
+!/CLion/*/
+!/CLion/*/*.cpp
+!/CLion/*/*.h
+
+!/WebStorm/
+!/WebStorm/*/
+!/WebStorm/*/*.js
+
+!/Rider/
+!/Rider/*/
+!/Rider/*/*/
+!/Rider/*/*/*.cs
